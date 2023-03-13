@@ -39,39 +39,7 @@
 #![crate_name = "jld_common"]
 #![crate_type = "lib"]
 
-use serde::{Deserialize, Serialize};
-use std::error::Error;
+mod error;
+pub mod rdf;
 
-#[derive(Debug, Deserialize, Serialize, PartialEq, Eq, Hash, Clone)]
-#[allow(non_camel_case_types)]
-/// jld-common is a data structure that ...
-pub struct jld_common {
-    // Add any data fields needed here
-}
-
-/// This is the main entry point for the my_library library.
-pub fn run() -> Result<(), Box<dyn Error>> {
-    // Add your code here
-    let name = "my_library";
-    println!("Hello, {}!", { name }.to_uppercase());
-    Ok(())
-}
-
-
-impl jld_common {
-    /// Creates a new instance of jld-common
-    pub fn new() -> Self {
-        Self {
-            // Initialize any data fields here
-        }
-    }
-}
-
-impl Default for jld_common {
-    /// Creates a new instance of jld-common with default values
-    fn default() -> Self {
-        Self::new()
-    }
-}
-
-
+pub use error::Error;

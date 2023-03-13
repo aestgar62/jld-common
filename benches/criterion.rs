@@ -1,10 +1,10 @@
 extern crate criterion;
 
 use criterion::{criterion_group, criterion_main, Criterion};
-use jld_common::run;
+//use jld_common::run;
 
-fn jld_common_benchmark(c: &mut Criterion) {
-    c.bench_function("jld-common", |b| {
+fn jld_common_benchmark(_c: &mut Criterion) {
+    /*c.bench_function("jld-common", |b| {
         b.iter(|| {
             for _ in 0..1000 {
                 match run() {
@@ -15,7 +15,7 @@ fn jld_common_benchmark(c: &mut Criterion) {
                 }
             }
         })
-    });
+    });*/
 }
 
 criterion_group!(benches, jld_common_benchmark);

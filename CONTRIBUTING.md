@@ -38,7 +38,7 @@ If you have an idea for a new feature or improvement, we'd love to hear it. Here
 
 - Fork the repo.
 - Clone the jld-common[1] repo by running:
-  `git clone https://github.com/test/test`
+  `git clone https://github.com/aestgar62/jld-common.git`
 - Edit files in the `src/` folder. The `src/` folder contains the source code for jld-common.
 - Submit a pull request, and we'll review and merge your changes if they fit with our vision for jld-common.
 
@@ -48,11 +48,11 @@ If you've identified a bug or have a specific code improvement in mind, we welco
 
 - Fork the repo.
 - Clone the jld-common repo by running:
-  `git clone https://github.com/test/test`
+  `git clone https://github.com/aestgar62/jld-common.git`
 - Edit files in the `src/` folder. The `src/` folder contains the source code for jld-common.
 - Submit a pull request, and we'll review and merge your changes if they fit with our vision for jld-common.
 
 We hope that this guide has been helpful in explaining how you can contribute to jld-common. Thank you for your interest and involvement in our project!
 
-[1]: https://github.com/test/test
-[2]: https://github.com/test/test/issues/new
+[1]: https://github.com/aestgar62/jld-common
+[2]: https://github.com/aestgar62/jld-common/issues/new
